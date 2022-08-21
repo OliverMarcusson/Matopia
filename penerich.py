@@ -2,7 +2,7 @@ import random
 import os
 
 def main():
-    names = ['Alfons', 'Fred', 'Sackarias', 'Hoppe', 'Noah', 'Johan']
+    names = ['Alfons', 'Fred', 'Sackarias', 'Hoppe', 'Noah', 'Johan', 'Oliver']
 
     rand_name = random.randint(0, len(names) -1)
     
@@ -11,7 +11,7 @@ def main():
     if rand_name == 5:
         size = random.randint(1, 5)
 
-    if rand_name == 2:
+    if rand_name == 2 or rand_name == 6:
         size = random.randint(200, 300)
         
     os.system('cls')
